@@ -17,6 +17,7 @@ import it.film.repository.FilmRepository;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
+//@AutoConfigureTestDatabase(replace = Replace.NONE)
 @TestPropertySource(locations = "classpath:application-test.properties")
 public class FilmRepoTest {
 	

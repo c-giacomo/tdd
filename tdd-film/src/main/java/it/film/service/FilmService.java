@@ -3,7 +3,6 @@ package it.film.service;
 import java.util.List;
 import java.util.Optional;
 
-import org.hibernate.cache.spi.support.EntityNonStrictReadWriteAccess;
 import org.springframework.stereotype.Service;
 
 import it.film.dto.FilmDTO;
